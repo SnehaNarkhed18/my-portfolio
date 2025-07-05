@@ -666,84 +666,60 @@ strong{
 .contact-line a:hover {
   text-decoration: underline;
 }
-/* ✅ Responsive Fixes for Mobile Devices */
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-
-  /* Certificates */
-  .certificate-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .certificate {
-    width: 100%;
-  }
-
-  .certificate img {
-    width: 100%;
-  }
-
-  /* Dashboard Images */
-  .dashboard-gallery {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .dashboard-image {
-    width: 100%;
-  }
-
-  .dashboard-image img {
-    width: 100%;
-  }
-
-  /* Canvas and Particles */
-  .canvas-container {
-    width: 100%;
-    height: auto;
-  }
-
-  canvas {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Portfolio Intro Section */
   .portfolio-header {
     flex-direction: column;
     text-align: center;
+    padding: 10px;
+  }
+
+  .portfolio-logo {
+    width: 150px;
+    margin-bottom: 10px;
   }
 
   .portfolio-title {
-    font-size: 32px;
-    text-align: center;
+    font-size: 24px;
+    line-height: 1.4;
   }
 
   .portfolio-intro {
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    gap: 10px;
   }
 
-  .portfolio-intro-image img {
-    width: 100%;
-    max-width: 350px;
-  }
-
-  /* Text Container */
-  .text-container {
-    padding: 20px;
-  }
-
-  /* CTA (Contact) Section */
-  .cta-heading {
-    font-size: 30px;
-  }
-
-  .contact-line {
+  .portfolio-intro-text h2 {
     font-size: 20px;
   }
 
+  .portfolio-name {
+    font-size: 24px;
+  }
+
+  .portfolio-intro-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .cta-wrapper {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cta-heading {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .contact-line {
+    font-size: 16px;
+  }
+
   .contact-line a {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
