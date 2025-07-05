@@ -666,11 +666,51 @@ strong{
 .contact-line a:hover {
   text-decoration: underline;
 }
-/* Responsive adjustments for smaller screens */
+/* ✅ Responsive Fixes for Mobile Devices */
 @media (max-width: 768px) {
-  .portfolio-header {
+
+  /* Certificates */
+  .certificate-wrapper {
     flex-direction: column;
     align-items: center;
+  }
+
+  .certificate {
+    width: 100%;
+  }
+
+  .certificate img {
+    width: 100%;
+  }
+
+  /* Dashboard Images */
+  .dashboard-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard-image {
+    width: 100%;
+  }
+
+  .dashboard-image img {
+    width: 100%;
+  }
+
+  /* Canvas and Particles */
+  .canvas-container {
+    width: 100%;
+    height: auto;
+  }
+
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Portfolio Intro Section */
+  .portfolio-header {
+    flex-direction: column;
     text-align: center;
   }
 
@@ -682,28 +722,19 @@ strong{
   .portfolio-intro {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-  }
-
-  .portfolio-intro-text h2 {
-    font-size: 28px;
-  }
-
-  .portfolio-name {
-    font-size: 32px;
   }
 
   .portfolio-intro-image img {
     width: 100%;
     max-width: 350px;
-    margin-top: 20px;
   }
 
-  .portfolio-tagline {
-    font-size: 14px;
-    text-align: center;
+  /* Text Container */
+  .text-container {
+    padding: 20px;
   }
 
+  /* CTA (Contact) Section */
   .cta-heading {
     font-size: 30px;
   }
