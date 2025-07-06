@@ -794,3 +794,113 @@ strong{
     height: 20px;
   }
 }
+
+/* ==== Responsive Fixes for All Portfolio Sections (≤ 768px) ==== */
+@media (max-width: 768px) {
+
+  /* About Section */
+  .about-section {
+    padding: 0 15px;
+    margin-bottom: 10em;
+  }
+
+  .about-content span {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  /* Education Section */
+  .education-section {
+    padding: 0 15px;
+    margin-bottom: 10em;
+  }
+
+  .education-details {
+    font-size: 18px;
+  }
+
+  strong {
+    font-size: 22px;
+  }
+
+  /* Certificates Section */
+  .certificates-section {
+    padding: 0 15px;
+  }
+
+  .certificate-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .certificate {
+    width: 100%;
+  }
+
+  .certificate p {
+    font-size: 18px;
+  }
+
+  /* Skills Section */
+  .skills-section {
+    padding: 0 15px;
+    margin-bottom: 10em;
+  }
+
+  .skills-section ul {
+    font-size: 18px;
+  }
+
+  /* Projects Section */
+  .projects {
+    padding: 0 15px;
+    margin-bottom: 10em;
+  }
+
+  .project h2 {
+    font-size: 24px;
+  }
+
+  .project .date,
+  .project b,
+  .project .description span {
+    font-size: 18px;
+  }
+
+  /* Dashboard Images Section */
+  .dashboard-images-section {
+    padding: 0 15px;
+  }
+
+  .dashboard-gallery {
+    flex-direction: column;
+  }
+
+  .dashboard-image {
+    width: 100%;
+  }
+
+  .dashboard-image p {
+    font-size: 18px;
+  }
+
+  /* Bottom Socials & Resume */
+  .bottom-socials {
+    margin-top: 10em;
+    margin-bottom: 10em;
+    padding: 0 15px;
+  }
+
+  .bottom-socials h2 {
+    font-size: 24px;
+  }
+
+  .resume a {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
