@@ -1039,3 +1039,19 @@ img {
     margin-top: 1em !important;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio-welcome {
+    display: block;
+    margin-top: 4em !important;
+    margin-bottom: 3em !important;
+    font-size: 20px;
+    color: white;
+    z-index: 5;
+    position: relative;
+  }
+
+  .portfolio-header {
+    margin-top: 0 !important;
+  }
+}
+
